@@ -83,6 +83,12 @@ func signupPage(res http.ResponseWriter, req *http.Request) {
 		return
 	}
 
+	db, err = sql.Open("mysql", "zhandos:SAy#wm81j5AcM$Oy@/go")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer db.Close()
+
 	username := req.FormValue("username")
 	password1 := req.FormValue("password1")
 	password2 := req.FormValue("password2")
@@ -127,6 +133,12 @@ func loginPage(res http.ResponseWriter, req *http.Request) {
 		tpl.ExecuteTemplate(res, "login.html", nil)
 		return
 	}
+
+	db, err = sql.Open("mysql", "zhandos:SAy#wm81j5AcM$Oy@/go")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer db.Close()
 
 	username := req.FormValue("username")
 	password := req.FormValue("password")
