@@ -1,0 +1,5 @@
+Report 4
+
+We create db for products, and we can add new products from website. You also can see all products from website, for this in header we add "Get products" button.
+In the header we also add search input for searching products by name. You can type any names, if db has these products or product, you can see it in the website.
+I think you put 2.5/3 for report3 because we don't use authentication with jwt? If is so, in midterm We'll fix it.

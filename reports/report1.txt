@@ -1,0 +1,16 @@
+Team Name : #1
+
+Members: Saparbayev Zhandos, Sairan Zhiger, Myrzagulov Nursultan.
+
+Report 1.
+In these weeks firstly we decide to learn basic structures and syntaxis of Go with documentation,
+and book "Learning Go Programming" by Vladimir Vivien. As this book is too large to read in one
+week, we have divided the book into 3 parts. First 4 chapters are given to Zhiger, middle
+is given to Nursultan, last chapters to Zhandos. Then we shared our knowledge to each other.
+So we needed fundamental knowledge in order to create a good project instead of just copying some
+tutorials.
+
+Mysql server was connected by Nurs.
+
+Note: You need to restart everytime after changing the code
+

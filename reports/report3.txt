@@ -1,0 +1,8 @@
+Report 3
+First we created a form for Sign up and Sign in. Then from these forms we chose variables more precisely inputs.
+And then we checked them before sending them to the database.
+
+During authorization, we will select a password and hash it, if it matches the hashing in the database, we will display on the screen,
+(for example: Hello,Nurs),and if it does not match, it will give an error.
+
+We made the design for the forms using bootstrap.

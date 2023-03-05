@@ -1,0 +1,5 @@
+Report 2
+
+
+First we opened the static folders (templates). Then opened inside this folder add_user html,next we could add user form.
+ We can add a new user to database, to do this, we use the local server environment MAMP.

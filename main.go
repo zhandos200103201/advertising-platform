@@ -214,7 +214,7 @@ func getProduct(res http.ResponseWriter, req *http.Request) {
 
 	var result []Product
 	for _, i := range products {
-		if strings.Contains(i.Name, name) || i.Name == name {
+		if strings.Contains(strings.ToLower(i.Name), strings.ToLower(name)) || strings.ToLower(i.Name) == strings.ToLower(name) {
 			result = append(result, i)
 		}
 	}
